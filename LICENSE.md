@@ -1,0 +1,3 @@
+This file is offered under GNU GENERAL PUBLIC LICENSE v3
+
+No Warranties or Liability...
