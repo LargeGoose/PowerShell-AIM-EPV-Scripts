@@ -16,7 +16,7 @@ $object = 'Cloud-Service-AdminUser'
 $ccpURI = $AFQDN + '/AIMWebService/api/Accounts?' + 'AppID=' + $appid + '&Safe=' + $safe + '&Object=' + $object
 # Preset $result to $null
 $result = $null
-# This is the 
+# This is the actual REST call
 $result = Invoke-RestMethod -Method Get -Uri $ccpURI -ContentType "application/json"
 if ($result -eq $null) {
   "$(Get-Date) Failed to get AWS Keys from CyberArk Vault, exiting..."
