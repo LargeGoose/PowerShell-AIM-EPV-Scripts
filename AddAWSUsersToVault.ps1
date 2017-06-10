@@ -68,7 +68,7 @@ else {
         if ($result.Count -eq 0) {
           "$(Get-Date) The account " + $UserId.UserName + " was not in the CyberArk Vault, creating it..."
           # First we need to spin the AccessKeyID and get a new Secret
-          # If the account has two access keys already we need to access the first one
+          # If the account has two access keys already we need to remove the first one
           if ($AccessKeys.Count -gt 1) {
             Remove-IAMAccessKey -UserName $UserId.UserName -AccessKeyId $AccessKeys.AccessKeyId[0] -Force
           }
