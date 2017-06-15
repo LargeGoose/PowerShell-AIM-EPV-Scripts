@@ -1,7 +1,7 @@
 # This script was designed to get creds for AWS so the result.AWSAccessKeyID is used
 
 # Define the FQDN for the AIM REST API
-$AFQDN = 'http://pvwa.cybergoose.demo'
+$AFQDN = 'https://pvwa.cybergoose.demo'
 # THIS SHOULD BE HTTPS WITH THE CERTIFICATE SERIAL NUMBER USED FOR APPLICATION AUTHENTICATION
 
 ##########################################################
