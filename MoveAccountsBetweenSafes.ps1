@@ -1,5 +1,5 @@
 # Define the FQDN for the REST APIs
-$FQDN = 'https://pvwa.cybergoose.local'
+$FQDN = 'https://components.cybergoose.local'
 
 # Define the Safe that the account will be moved from
 $fromSafe = "AWS"
